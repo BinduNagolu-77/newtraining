@@ -171,5 +171,12 @@
 		<property name="sorts" type="java.util.List&lt;de.hybris.platform.commerceservices.search.pagedata.SortData>"/>
 		<property name="pagination" type="de.hybris.platform.commerceservices.search.pagedata.PaginationData"/>
 	</bean>
+	
+	<bean class="de.hybris.platform.commercewebservicescommons.dto.product.ProductWsDTO">
+		<property name="weightData" type="java.lang.String"/>
+	</bean>
+	
+	
+		
 
 </beans>

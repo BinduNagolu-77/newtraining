@@ -77,6 +77,7 @@
 		<property name="populators">
 			<list>
 				<ref bean="cwsProductPopulator"/>
+				<ref bean="weightPopulator" />
 			</list>
 		</property>
 	</bean>
@@ -155,6 +156,7 @@
 	<bean parent="modifyPopulatorList">
 		<property name="list" ref="customerConverter"/>
 		<property name="add" ref="extendedCustomerPopulator"/>
+		
 	</bean>
 
 	<!-- Update Queues -->
