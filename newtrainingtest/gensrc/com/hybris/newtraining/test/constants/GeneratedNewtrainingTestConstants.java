@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 06-Mar-2023, 5:09:30 PM                     ---
+ * --- Generated at 23-Mar-2023, 2:00:25 PM                     ---
  * ----------------------------------------------------------------
  */
 package com.hybris.newtraining.test.constants;

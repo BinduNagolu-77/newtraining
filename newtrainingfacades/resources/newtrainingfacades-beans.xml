@@ -28,5 +28,8 @@
 	 <bean class= "de.hybris.platform.commercefacades.product.data.ProductData">
 	 	<property name="resolutionType" type="String" />
 	 </bean>
+	 <enum class="de.hybris.platform.commercefacades.product.ProductOption">
+	 	<value>WEIGHT</value>
+	</enum>
 	 
 </beans>
