@@ -8,7 +8,7 @@
         <collectiontype code="GenderList" elementtype="Gender" autocreate="true" generate="true" type="list"/>
         <collectiontype code="SwatchColorSet" elementtype="SwatchColorEnum" autocreate="true" generate="true"
                         type="set"/>   
-        <collectiontype code="CustomOfferLinksList" elementtype="CMSLinkComponent" autocreate="true" generate="true" type="list" />           
+        <collectiontype code="CustomOfferLinksList" elementtype="CMSLinkComponent" autocreate="true" generate="true" type="list" />  
            
     </collectiontypes>
 
@@ -146,8 +146,6 @@
 						
 						</attributes>
 			</itemtype>
-			
-			
 			<itemtype code="CustomCMSComponent" extends="SimpleCMSComponent" generate="true" autocreate="true"
 			jaloclass="com.hybris.newtraining.core.jalo.CustomCMSComponent">
 			<description>Display offers on homepage</description>
@@ -171,9 +169,12 @@
 					</attribute>
 				</attributes>
 			</itemtype>
+			
+			
 				
             
         </typegroup>
 
     </itemtypes>
 </items>
+			
