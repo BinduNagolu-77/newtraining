@@ -175,6 +175,12 @@
 	<bean class="de.hybris.platform.commercewebservicescommons.dto.product.ProductWsDTO">
 		<property name="weightData" type="java.lang.String"/>
 	</bean>
+	<bean class="de.hybris.platform.commercewebservicescommons.dto.user.UserWsDTO">
+		<property name="phoneNumber" type="java.lang.String"/>
+	</bean>
+	<bean class="de.hybris.platform.commercewebservicescommons.dto.user.UserSignUpWsDTO">
+		<property name="phoneNumber" type="java.lang.String"/>
+	</bean>
 	
 	
 		

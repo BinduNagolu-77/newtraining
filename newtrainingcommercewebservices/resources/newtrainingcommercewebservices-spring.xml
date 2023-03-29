@@ -263,8 +263,8 @@
 		<property name="userMatchingService" ref="wsUserMatchingService"/>
 	</bean>
 
-	<alias name="defaultWsCustomerFacade" alias="wsCustomerFacade"/>
-	<bean id="defaultWsCustomerFacade" parent="defaultCustomerFacade">
+	<alias name="trainingCustomerFacade" alias="wsCustomerFacade"/>
+	<bean id="trainingCustomerFacade" class="com.hybris.newtraining.facades.registerdata.pages.impl.TrainingCustomerFacadeImpl" parent="defaultCustomerFacade">
 		<property name="userMatchingService" ref="wsUserMatchingService"/>
 		<property name="userFacade" ref="wsUserFacade"/>
 	</bean>
